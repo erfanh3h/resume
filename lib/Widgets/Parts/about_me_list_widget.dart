@@ -1,25 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:refreshed/refreshed.dart';
-import 'package:resume/Controllers/locale_controller.dart';
-import 'package:resume/Controllers/theme_controller.dart';
 import 'package:resume/Data/education_data.dart';
-import 'package:resume/Data/experience_data.dart';
 import 'package:resume/Resources/app_images.dart';
 import 'package:resume/Resources/app_spacings.dart';
 import 'package:resume/Resources/app_texts.dart';
 import 'package:resume/Widgets/education_box.dart';
-import 'package:resume/Widgets/experience_box.dart';
 import 'package:resume/Widgets/header_widget.dart';
 import 'package:resume/Widgets/six_top_header_widget.dart';
 import 'package:resume/Widgets/text_icon_widget.dart';
 
-class MainListWidget extends StatelessWidget {
-  const MainListWidget({super.key});
+class AboutMeListWidget extends StatelessWidget {
+  const AboutMeListWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final localeController = Get.find<LocaleController>();
-    final themeController = Get.find<ThemeController>();
     return LayoutBuilder(
       builder: (context, cons) {
         final maxWidth = cons.maxWidth;
@@ -29,28 +23,7 @@ class MainListWidget extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  Align(
-                    alignment: Alignment.centerRight,
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        IconButton(
-                          onPressed: () => localeController.changeLocale(),
-                          icon: Text(AppTexts.lang.tr),
-                        ),
-                        Obx(
-                          () => IconButton(
-                            onPressed: () => themeController.changeTheme(),
-                            icon: Icon(
-                              themeController.isDarkMode.value
-                                  ? Icons.mode_night_outlined
-                                  : Icons.sunny,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  SizedBox(height: 20),
                   Center(
                     child: ClipRRect(
                       borderRadius: BorderRadiusGeometry.circular(150),
@@ -115,25 +88,6 @@ class MainListWidget extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 20),
-                  Center(
-                    child: HeaderWidget(
-                      text: AppTexts.workExperience.tr,
-                      icon: Icons.work,
-                    ),
-                  ),
-                  SizedBox(height: 5),
-                  Padding(
-                    padding: AppSpacings.s20All,
-                    child: ListView.separated(
-                      shrinkWrap: true,
-                      physics: NeverScrollableScrollPhysics(),
-                      itemBuilder: (ctx, index) =>
-                          ExperienceBox(data: experiences[index]),
-                      separatorBuilder: (context, index) =>
-                          SizedBox(height: 10),
-                      itemCount: experiences.length,
-                    ),
-                  ),
                 ],
               ),
             ),

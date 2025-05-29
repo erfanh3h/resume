@@ -81,7 +81,7 @@ class ExperienceBox extends StatelessWidget {
                     height: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: context.theme.colorScheme.primary,
+                      color: context.theme.colorScheme.secondary,
                     ),
                   ),
                   SizedBox(width: 10),
