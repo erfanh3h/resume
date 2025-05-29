@@ -17,13 +17,18 @@ class AppTranslations extends Translations {
       AppTexts.military: "معافیت غیرپزشکی",
       AppTexts.aboutTitle: "درباره من",
       AppTexts.about:
-          """مهندس نرم‌افزار و توسعه‌دهنده‌ی فول‌استک هستم که از طراحی معماری تا ساخت رابط کاربری، سعی می‌کنم همه‌چیز منسجم، دقیق و قابل گسترش باشه. به ساخت محصولاتی علاقه‌مندم که هم از نظر فنی درست کار کنن و هم تجربه‌ی خوبی برای کاربر بسازن. تعادل بین منطق، زیبایی و کارایی همیشه برام مهم بوده.""",
+          """مهندس نرم‌افزار و توسعه‌دهنده‌ی فول‌استک هستم که از طراحی معماری تا ساخت رابط کاربری، سعی می‌کنم همه‌چیز منسجم، دقیق و قابل گسترش باشه. به ساخت محصولاتی علاقه‌مندم که هم از نظر فنی درست کار کنن ، هم تجربه‌ی خوبی برای کاربر بسازن و هم برای خودم چالش برانگیز باشن. تعادل بین منطق، زیبایی و کارایی همیشه برام مهم بوده وهمیشه دنبال راهی برای پیشرفت کارم هستم.""",
       AppTexts.education: "تحصیلات",
       AppTexts.workExperience: "سوابق شغلی",
       AppTexts.skills: "مهارت ها",
       AppTexts.langueges: "زبان ها",
       AppTexts.projects: "پروژه ها",
       AppTexts.socialNetworks: "شبکه اجتماعی",
+      AppTexts.ed1Title: "کارشناسی کامپیوتر",
+      AppTexts.ed1Branch: "نرم افزار",
+      AppTexts.ed1University: "دانشگاه سراسری قم",
+      AppTexts.ed1Location: "ایران / قم",
+      AppTexts.ed1Year: "1394 - 1398",
     },
     'en': {
       AppTexts.resume: "Resume",
@@ -46,6 +51,11 @@ class AppTranslations extends Translations {
       AppTexts.langueges: "Langueges",
       AppTexts.projects: "Projects",
       AppTexts.socialNetworks: "Social Networks",
+      AppTexts.ed1Title: "Bachelor of Computer",
+      AppTexts.ed1Branch: "Engineering",
+      AppTexts.ed1University: "Qom University",
+      AppTexts.ed1Location: "Iran , Qom",
+      AppTexts.ed1Year: "2015 - 2019",
     },
   };
 }

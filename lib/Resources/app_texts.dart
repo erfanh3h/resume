@@ -17,4 +17,11 @@ abstract class AppTexts {
   static const langueges = "langueges";
   static const projects = "projects";
   static const socialNetworks = "socialNetworks";
+
+  //education 1
+  static const ed1Title = "ed1Title";
+  static const ed1Branch = "ed1Branch";
+  static const ed1University = "ed1University";
+  static const ed1Location = "ed1Location";
+  static const ed1Year = "ed1Year";
 }

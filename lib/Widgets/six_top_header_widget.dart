@@ -6,10 +6,7 @@ import 'package:resume/Resources/app_texts.dart';
 import 'package:resume/Widgets/text_icon_widget.dart';
 
 class SixTopHeaderWidget extends StatelessWidget {
-  const SixTopHeaderWidget({
-    super.key,
-    required this.maxWidth,
-  });
+  const SixTopHeaderWidget({super.key, required this.maxWidth});
 
   final double maxWidth;
 
@@ -33,7 +30,7 @@ class SixTopHeaderWidget extends StatelessWidget {
                 children: [
                   TextIconWidget(
                     text: AppTexts.email.tr,
-                    icon: CupertinoIcons.envelope,
+                    icon: CupertinoIcons.envelope_fill,
                   ),
                   TextIconWidget(
                     text: AppTexts.dOB.tr,
@@ -57,14 +54,8 @@ class SixTopHeaderWidget extends StatelessWidget {
                     icon: Icons.phone,
                     textDirection: TextDirection.ltr,
                   ),
-                  TextIconWidget(
-                    text: AppTexts.country.tr,
-                    icon: Icons.flag,
-                  ),
-                  TextIconWidget(
-                    text: AppTexts.marital.tr,
-                    icon: Icons.home,
-                  ),
+                  TextIconWidget(text: AppTexts.country.tr, icon: Icons.flag),
+                  TextIconWidget(text: AppTexts.marital.tr, icon: Icons.home),
                 ],
               ),
             ),
