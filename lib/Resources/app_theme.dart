@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:resume/Resources/app_colors.dart';
-import 'package:resume/Resources/app_consts.dart';
 
 class AppTheme {
-  static ThemeData lightTheme = ThemeData(
+  static ThemeData lightTheme(String fontFamily) => ThemeData(
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.primary,
       surface: AppColors.backgroundLight,
@@ -67,7 +66,7 @@ class AppTheme {
       ),
       displayLarge: TextStyle(color: AppColors.fontLight, fontSize: 7),
     ),
-    iconTheme: const IconThemeData(color: Colors.white),
+    iconTheme: const IconThemeData(color: AppColors.darkColor),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.primaryLight,
     ),
@@ -83,11 +82,11 @@ class AppTheme {
       disabledBorder: InputBorder.none,
     ),
     primaryColor: AppColors.primaryLight,
-    fontFamily: FontFamilies.vazir,
+    fontFamily: fontFamily,
     useMaterial3: true,
   );
 
-  static ThemeData darkTheme = ThemeData(
+  static ThemeData darkTheme(String fontFamily) => ThemeData(
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.primary,
       surface: AppColors.backgroundDark,
@@ -155,7 +154,7 @@ class AppTheme {
       ),
       displayLarge: TextStyle(color: AppColors.fontDark, fontSize: 7),
     ),
-    iconTheme: const IconThemeData(color: Colors.white),
+    iconTheme: const IconThemeData(color: AppColors.lightColor),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.primaryDark,
     ),
@@ -174,7 +173,7 @@ class AppTheme {
       // surfaceTintColor: AppColors.white.withOpacity(.2),
     ),
     primaryColor: AppColors.primaryDark,
-    fontFamily: FontFamilies.vazir,
+    fontFamily: fontFamily,
     useMaterial3: true,
     dialogTheme: const DialogThemeData(backgroundColor: AppColors.primaryDark),
   );

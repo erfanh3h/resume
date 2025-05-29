@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:resume/Controllers/locale_controller.dart';
 import 'package:resume/Controllers/theme_controller.dart';
+import 'package:resume/Resources/app_images.dart';
+import 'package:resume/Resources/app_spacings.dart';
 import 'package:resume/Resources/app_texts.dart';
 
 class MainListWidget extends StatelessWidget {
@@ -15,24 +17,46 @@ class MainListWidget extends StatelessWidget {
       builder: (context, cons) {
         print(cons.maxWidth);
         return Card(
-          child: ListView(
-            children: [
-              Align(
-                alignment: Alignment.centerLeft,
-                child: IconButton(
-                  onPressed: () => localeController.changeLocale(),
-                  icon: Text("change"),
+          child: Padding(
+            padding: AppSpacings.s20All,
+            child: ListView(
+              children: [
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        onPressed: () => localeController.changeLocale(),
+                        icon: Text(AppTexts.lang.tr),
+                      ),
+                      Obx(
+                        () => IconButton(
+                          onPressed: () => themeController.changeTheme(),
+                          icon: Icon(
+                            themeController.isDarkMode.value
+                                ? Icons.mode_night_outlined
+                                : Icons.sunny,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: IconButton(
-                  onPressed: () => themeController.changeTheme(),
-                  icon: Text("change theme"),
+                Align(
+                  alignment: Alignment.center,
+                  child: ClipRRect(
+                    borderRadius: BorderRadiusGeometry.circular(150),
+                    child: Image.asset(
+                      AppImages.profile,
+                      width: 150,
+                      height: 150,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
-              ),
-              Text(AppTexts.resume.tr),
-            ],
+              ],
+            ),
           ),
         );
       },

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:resume/Bindings/global_binding.dart';
+import 'package:resume/Resources/app_consts.dart';
 import 'package:resume/Resources/app_theme.dart';
 import 'package:resume/Resources/app_translates.dart';
 import 'package:resume/main_page.dart';
@@ -28,8 +29,8 @@ class _MyAppState extends State<MyApp> {
         title: "Erfan HayatBakhsh",
         debugShowCheckedModeBanner: false,
         popGesture: false,
-        theme: AppTheme.lightTheme,
-        darkTheme: AppTheme.darkTheme,
+        theme: AppTheme.lightTheme(FontFamilies.playPen),
+        darkTheme: AppTheme.darkTheme(FontFamilies.playPen),
         localizationsDelegates: const [
           GlobalCupertinoLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -39,7 +40,7 @@ class _MyAppState extends State<MyApp> {
           Locale("fa", "IR"), // OR Locale('ar', 'AE') OR Other RTL locales
           Locale("en", "US"),
         ],
-        locale: const Locale("fa", "IR"), //
+        locale: const Locale("en", "US"), //
         themeMode: ThemeMode.light,
         translations: AppTranslations(),
         home: MainPage(),
