@@ -62,7 +62,7 @@ class AppColors {
   static const goldenColor = Color.fromARGB(255, 165, 157, 52);
   static const goldenColor2 = Color.fromARGB(149, 165, 131, 58);
 
-  static const dcColor = Color.fromARGB(255, 223, 166, 101);
+  static const grey = Color.fromARGB(255, 144, 155, 155);
 
   static const darkGreen = Color.fromARGB(255, 22, 112, 58);
 
