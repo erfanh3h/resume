@@ -5,8 +5,8 @@ class AppColors {
   static const primaryLight = Color.fromARGB(255, 58, 83, 83);
   static const primaryDark = Color.fromARGB(255, 72, 72, 80);
 
-  static const backgroundLight = Color.fromARGB(255, 241, 239, 239);
-  static const backgroundDark = Color.fromARGB(255, 39, 39, 48);
+  static const backgroundLight = Color.fromARGB(255, 221, 210, 210);
+  static const backgroundDark = Color.fromARGB(255, 60, 60, 73);
 
   static const cardLight = Color.fromARGB(255, 255, 255, 255);
   static const cardDark = Color.fromARGB(255, 6, 80, 80);

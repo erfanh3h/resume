@@ -10,6 +10,7 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: context.theme.colorScheme.surface,
       body: Center(
         child: SizedBox(
           width: min(640, Get.size.width),

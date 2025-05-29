@@ -7,11 +7,13 @@ class TextIconWidget extends StatelessWidget {
     required this.text,
     required this.icon,
     this.textStyle,
+    this.textDirection,
   });
 
   final String text;
   final IconData icon;
   final TextStyle? textStyle;
+  final TextDirection? textDirection;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -20,7 +22,11 @@ class TextIconWidget extends StatelessWidget {
       spacing: 5,
       children: [
         Icon(icon),
-        Text(text, style: textStyle ?? context.theme.textTheme.bodyMedium),
+        Text(
+          text,
+          style: textStyle ?? context.theme.textTheme.bodyMedium,
+          textDirection: textDirection,
+        ),
       ],
     );
   }

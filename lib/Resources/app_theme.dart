@@ -29,7 +29,7 @@ class AppTheme {
       displayMedium: const TextStyle(color: AppColors.fontLight, fontSize: 17),
       bodySmall: const TextStyle(
         color: AppColors.fontLight,
-        fontSize: 15,
+        fontSize: 14,
         height: 1.5,
       ),
       bodyMedium: const TextStyle(
@@ -109,7 +109,7 @@ class AppTheme {
       displayMedium: const TextStyle(color: AppColors.fontDark, fontSize: 17),
       bodySmall: const TextStyle(
         color: AppColors.fontDark,
-        fontSize: 15,
+        fontSize: 14,
         height: 1.5,
       ),
       bodyMedium: const TextStyle(
