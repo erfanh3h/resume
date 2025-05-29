@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:refreshed/get_utils/src/extensions/internationalization.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:resume/Models/education_model.dart';
 import 'package:resume/Resources/app_spacings.dart';
@@ -31,24 +30,26 @@ class EducationBox extends StatelessWidget {
                 ),
               ),
             SizedBox(width: 10),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              mainAxisSize: MainAxisSize.max,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                TextIconWidget(
-                  text: "${(data.title ?? "").tr} - ${(data.branch ?? "").tr} ",
-                  icon: Icons.label_important_rounded,
-                ),
-                TextIconWidget(
-                  text:
-                      '${(data.university ?? "").tr} - ${(data.location ?? "").tr}',
-                  icon: Icons.apartment,
-                  textStyle: context.theme.textTheme.titleSmall,
-                ),
-              ],
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisSize: MainAxisSize.max,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  TextIconWidget(
+                    text:
+                        "${(data.title ?? "").tr} - ${(data.branch ?? "").tr} ",
+                    icon: Icons.label_important_rounded,
+                  ),
+                  TextIconWidget(
+                    text:
+                        '${(data.university ?? "").tr} - ${(data.location ?? "").tr}',
+                    icon: Icons.apartment,
+                    textStyle: context.theme.textTheme.titleSmall,
+                  ),
+                ],
+              ),
             ),
-            Spacer(),
             TextIconWidget(
               text: (data.year ?? "").tr,
               icon: Icons.date_range,

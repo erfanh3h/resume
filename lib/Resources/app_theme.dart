@@ -40,7 +40,7 @@ class AppTheme {
       bodyLarge: const TextStyle(color: AppColors.fontLight, fontSize: 21),
       headlineSmall: const TextStyle(
         color: AppColors.fontLight,
-        fontSize: 17,
+        fontSize: 14,
         fontWeight: FontWeight.bold,
       ),
       headlineMedium: const TextStyle(
@@ -120,7 +120,7 @@ class AppTheme {
       bodyLarge: const TextStyle(color: AppColors.fontDark, fontSize: 21),
       headlineSmall: const TextStyle(
         color: AppColors.fontDark,
-        fontSize: 17,
+        fontSize: 14,
         fontWeight: FontWeight.bold,
       ),
       headlineMedium: const TextStyle(

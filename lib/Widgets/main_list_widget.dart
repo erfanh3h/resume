@@ -3,10 +3,12 @@ import 'package:refreshed/refreshed.dart';
 import 'package:resume/Controllers/locale_controller.dart';
 import 'package:resume/Controllers/theme_controller.dart';
 import 'package:resume/Data/education_data.dart';
+import 'package:resume/Data/experience_data.dart';
 import 'package:resume/Resources/app_images.dart';
 import 'package:resume/Resources/app_spacings.dart';
 import 'package:resume/Resources/app_texts.dart';
 import 'package:resume/Widgets/education_box.dart';
+import 'package:resume/Widgets/experience_box.dart';
 import 'package:resume/Widgets/header_widget.dart';
 import 'package:resume/Widgets/six_top_header_widget.dart';
 import 'package:resume/Widgets/text_icon_widget.dart';
@@ -75,7 +77,7 @@ class MainListWidget extends StatelessWidget {
                       style: context.theme.textTheme.headlineLarge,
                     ),
                   ),
-                  SizedBox(height: 25),
+                  SizedBox(height: 20),
                   SixTopHeaderWidget(maxWidth: maxWidth),
                   Center(
                     child: HeaderWidget(
@@ -110,6 +112,26 @@ class MainListWidget extends StatelessWidget {
                       separatorBuilder: (context, index) =>
                           SizedBox(height: 10),
                       itemCount: educationsData.length,
+                    ),
+                  ),
+                  SizedBox(height: 20),
+                  Center(
+                    child: HeaderWidget(
+                      text: AppTexts.workExperience.tr,
+                      icon: Icons.work,
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Padding(
+                    padding: AppSpacings.s20All,
+                    child: ListView.separated(
+                      shrinkWrap: true,
+                      physics: NeverScrollableScrollPhysics(),
+                      itemBuilder: (ctx, index) =>
+                          ExperienceBox(data: experiences[index]),
+                      separatorBuilder: (context, index) =>
+                          SizedBox(height: 10),
+                      itemCount: experiences.length,
                     ),
                   ),
                 ],

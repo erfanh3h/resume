@@ -24,11 +24,23 @@ class AppTranslations extends Translations {
       AppTexts.langueges: "زبان ها",
       AppTexts.projects: "پروژه ها",
       AppTexts.socialNetworks: "شبکه اجتماعی",
+      AppTexts.tasksAndAchievements: "وظایف و دستاوردها",
       AppTexts.ed1Title: "کارشناسی کامپیوتر",
       AppTexts.ed1Branch: "نرم افزار",
       AppTexts.ed1University: "دانشگاه سراسری قم",
       AppTexts.ed1Location: "ایران / قم",
       AppTexts.ed1Year: "1394 - 1398",
+      AppTexts.exp1Title: "توسعه دهنده ارشد فلاتر (دورکاری)",
+      AppTexts.exp1Name: "بایتلی",
+      AppTexts.exp1Location: "ترکیه، استانبول",
+      AppTexts.exp1Year: "1402",
+      AppTexts.exp1Task1:
+          "توسعه اپلیکیشن اختصاصی بایتلی مبتنی بر جدیدترین روش های روز دنیا",
+      AppTexts.exp1Task2: "طراحی و پیاده سازی رابطهای کاربری به صورت واکنشگرا",
+      AppTexts.exp1Task3: "پیاده سازی عملکردهای پیچیده و پیشرفته",
+      AppTexts.exp1Task4: "تحلیل، ارزیابی و بهبود عملکرد صفحات برنامه",
+      AppTexts.exp1Task5:
+          "همکاری با تیم توسعه در تعیین نیازمندیها و طراحی معماری نرم افزار",
     },
     'en': {
       AppTexts.resume: "Resume",
@@ -51,11 +63,26 @@ class AppTranslations extends Translations {
       AppTexts.langueges: "Langueges",
       AppTexts.projects: "Projects",
       AppTexts.socialNetworks: "Social Networks",
+      AppTexts.tasksAndAchievements: "Tasks and Achievements",
       AppTexts.ed1Title: "Bachelor of Computer",
       AppTexts.ed1Branch: "Engineering",
       AppTexts.ed1University: "Qom University",
       AppTexts.ed1Location: "Iran , Qom",
       AppTexts.ed1Year: "2015 - 2019",
+      AppTexts.exp1Title: "Senior Flutter Developer (Remote - Full Time)",
+      AppTexts.exp1Name: "Bitely",
+      AppTexts.exp1Location: "Turkey , Istanbul",
+      AppTexts.exp1Year: "2023",
+      AppTexts.exp1Task1:
+          "Develope and maintaine Bitely applications with newest methods",
+      AppTexts.exp1Task2:
+          "Collaborate with cross-functional teams to gather requirements and design application architectures",
+      AppTexts.exp1Task3:
+          "Create reusable Flutter widgets and components to increase development efficiency",
+      AppTexts.exp1Task4:
+          "Implemente responsive UI designs for optimal user experience across various devices and screen sizes",
+      AppTexts.exp1Task5:
+          "Optimize application performance and ensured code quality through testing and debugging",
     },
   };
 }

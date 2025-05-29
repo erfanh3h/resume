@@ -22,10 +22,13 @@ class TextIconWidget extends StatelessWidget {
       spacing: 5,
       children: [
         Icon(icon),
-        Text(
-          text,
-          style: textStyle ?? context.theme.textTheme.bodyMedium,
-          textDirection: textDirection,
+        Flexible(
+          child: Text(
+            text,
+            style: textStyle ?? context.theme.textTheme.bodyMedium,
+            textDirection: textDirection,
+            maxLines: 2,
+          ),
         ),
       ],
     );
