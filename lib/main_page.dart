@@ -1,5 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:refreshed/refreshed.dart';
+import 'package:resume/Widgets/main_list_widget.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -7,7 +10,12 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SizedBox(width: Get.size.width, height: Get.size.height),
+      body: Center(
+        child: SizedBox(
+          width: min(640, Get.size.width),
+          child: MainListWidget(),
+        ),
+      ),
     );
   }
 }

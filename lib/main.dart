@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:refreshed/refreshed.dart';
-import 'package:resume/Resources/app_texts.dart';
+import 'package:resume/Bindings/global_binding.dart';
 import 'package:resume/Resources/app_theme.dart';
 import 'package:resume/Resources/app_translates.dart';
 import 'package:resume/main_page.dart';
@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
         context,
       ).copyWith(textScaler: const TextScaler.linear(1)),
       child: GetMaterialApp(
-        title: AppTexts.resume.tr,
+        title: "Erfan HayatBakhsh",
         debugShowCheckedModeBanner: false,
         popGesture: false,
         theme: AppTheme.lightTheme,
@@ -40,9 +40,12 @@ class _MyAppState extends State<MyApp> {
           Locale("en", "US"),
         ],
         locale: const Locale("fa", "IR"), //
-        home: const MainPage(),
         themeMode: ThemeMode.light,
         translations: AppTranslations(),
+        home: MainPage(),
+        onInit: () {
+          GlobalBinding().dependencies();
+        },
       ),
     );
   }
