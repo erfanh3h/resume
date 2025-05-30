@@ -18,7 +18,7 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: isActive ? 10 : 1,
+      elevation: isActive ? 10 : .25,
       child: InkWell(
         onTap: onTap,
         child: Padding(

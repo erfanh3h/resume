@@ -41,6 +41,13 @@ class AppTranslations extends Translations {
       AppTexts.exp1Task4: "تحلیل، ارزیابی و بهبود عملکرد صفحات برنامه",
       AppTexts.exp1Task5:
           "همکاری با تیم توسعه در تعیین نیازمندیها و طراحی معماری نرم افزار",
+      AppTexts.pj1Title: "اپ اختصاصی شرکت Bitely",
+      AppTexts.pj1Owner: "شرکت بایتلی",
+      AppTexts.pj1Year: "1402",
+      AppTexts.pj1Description:
+          """اپلیکیشن بایتلی , اپی جامع با ایده ای نوین برای کتابخوانی افراد می باشد.
+این اپ دارای جدیدترین ویژگی های روز یک اپلیکیشن می باشید که برخی از ویژگی های آن شامل ui پیچیده و ریسپانسیو ، پرداخت درون برنامه ای ،اتصال به google ad و aws amplify ، پخش مالتی مدیای کتابها ، معماری تمیز ، ذخیره سازی اطلاعات در storage و بارگزاری در مارکت های اصلی و ... می باشد
+""",
     },
     'en': {
       AppTexts.resume: "Resume",
@@ -83,6 +90,15 @@ class AppTranslations extends Translations {
           "Implemente responsive UI designs for optimal user experience across various devices and screen sizes",
       AppTexts.exp1Task5:
           "Optimize application performance and ensured code quality through testing and debugging",
+      AppTexts.pj1Title: "Bitely Application",
+      AppTexts.pj1Owner: "Bitely Company",
+      AppTexts.pj1Year: "2023",
+      AppTexts.pj1Description:
+          """Bytely application is a comprehensive and innovative app for reading books by individuals.
+This app incorporates the latest features of a modern application, with a sophisticated and responsive UI. Some of its features
+include AWS Amplify, Google Ad, in-app payments, integration with various platforms, audiobook playback, clean architecture, and
+more.
+""",
     },
   };
 }

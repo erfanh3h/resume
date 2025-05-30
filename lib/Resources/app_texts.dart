@@ -45,4 +45,12 @@ abstract class AppTexts {
   static const skill5 = "Unit Testing";
   static const skill6 = "Graphql - RestAPI";
   static const skill7 = "Scrum - Jira - Trello";
+
+  //project 1
+  static const pj1Title = "pj1Title";
+  static const pj1Owner = "pj1Owner";
+  static const pj1Year = "pj1Year";
+  static const pj1Description = "pj1Description";
+  static const pj1Link =
+      "https://play.google.com/store/apps/details?id=com.bitely.ai&hl=en_US";
 }

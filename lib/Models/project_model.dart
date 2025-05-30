@@ -1,5 +1,5 @@
 class ProjectModel {
-  final String? title, owner, year, description, link;
+  final String? title, owner, year, description, link, image;
   final List<String>? images;
 
   ProjectModel({
@@ -8,6 +8,7 @@ class ProjectModel {
     this.year,
     this.description,
     this.link,
+    this.image,
     this.images,
   });
 }
