@@ -105,6 +105,10 @@ abstract class AppTexts {
   static const skill25 = "AWS Lambda Functions";
   static const skill26 = "Responsive Prenciples";
 
+  //langueges
+  static const lang1 = "lang1";
+  static const lang2 = "lang2";
+
   //project 1
   static const pj1Title = "pj1Title";
   static const pj1Owner = "pj1Owner";

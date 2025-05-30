@@ -24,6 +24,8 @@ class AppTranslations extends Translations {
       AppTexts.projects: "پروژه ها",
       AppTexts.socialNetworks: "شبکه اجتماعی",
       AppTexts.tasksAndAchievements: "وظایف و دستاوردها",
+      AppTexts.lang1: "فارسی",
+      AppTexts.lang2: "انگلیسی",
       AppTexts.ed1Title: "کارشناسی کامپیوتر",
       AppTexts.ed1Branch: "نرم افزار",
       AppTexts.ed1University: "دانشگاه سراسری قم",
@@ -50,7 +52,8 @@ class AppTranslations extends Translations {
           "طراحی و پیاده سازی رابط کاربری با استفاده از فریمورک فلاتر",
       AppTexts.exp2Task3:
           "ارتقای کیفیت و عملکرد برنامه با بهبود فرایندهای توسعه",
-      AppTexts.exp2Task4: "پیاده سازی و ادغام ویژگی های جدید در برنامه های فلاتر",
+      AppTexts.exp2Task4:
+          "پیاده سازی و ادغام ویژگی های جدید در برنامه های فلاتر",
       AppTexts.exp2Task5: "حل مشکلات با ارائه راه حلهای نوآورانه",
       AppTexts.exp3Title: "توسعه دهنده فلاتر(پروژه محور)",
       AppTexts.exp3Name: "ویلا آرتز (مشکی)",
@@ -103,6 +106,8 @@ class AppTranslations extends Translations {
       AppTexts.projects: "Projects",
       AppTexts.socialNetworks: "Social Networks",
       AppTexts.tasksAndAchievements: "Tasks and Achievements",
+      AppTexts.lang1: "Persian",
+      AppTexts.lang2: "English",
       AppTexts.ed1Title: "Bachelor of Computer",
       AppTexts.ed1Branch: "Engineering",
       AppTexts.ed1University: "Qom University",
