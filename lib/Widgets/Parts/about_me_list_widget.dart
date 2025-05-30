@@ -19,7 +19,7 @@ class AboutMeListWidget extends StatelessWidget {
         final maxWidth = cons.maxWidth;
         return Card(
           child: Padding(
-            padding: AppSpacings.s20All,
+            padding: AppSpacings.s5All,
             child: SingleChildScrollView(
               child: Column(
                 children: [

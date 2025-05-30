@@ -40,6 +40,40 @@ class AppTranslations extends Translations {
       AppTexts.exp1Task4: "تحلیل، ارزیابی و بهبود عملکرد صفحات برنامه",
       AppTexts.exp1Task5:
           "همکاری با تیم توسعه در تعیین نیازمندیها و طراحی معماری نرم افزار",
+      AppTexts.exp2Title: "توسعه دهنده ارشد فلاتر (دورکاری)",
+      AppTexts.exp2Name: "شرکت کامپیوتری برگ",
+      AppTexts.exp2Location: "ایران ، تهران",
+      AppTexts.exp2Year: "1401 - 1402",
+      AppTexts.exp2Task1:
+          "بهبود بهره وری کد با ایجاد کد های قابل استفاده مجدد در فلاتر",
+      AppTexts.exp2Task2:
+          "طراحی و پیاده سازی رابط کاربری با استفاده از فریمورک فلاتر",
+      AppTexts.exp2Task3:
+          "ارتقای کیفیت و عملکرد برنامه با بهبود فرایندهای توسعه",
+      AppTexts.exp2Task4: "پیاده سازی و ادغام ویژگی های جدید در برنامه های فلاتر",
+      AppTexts.exp2Task5: "حل مشکلات با ارائه راه حلهای نوآورانه",
+      AppTexts.exp3Title: "توسعه دهنده فلاتر(پروژه محور)",
+      AppTexts.exp3Name: "ویلا آرتز (مشکی)",
+      AppTexts.exp3Location: "ایران ، قم",
+      AppTexts.exp3Year: "1399 - 1401",
+      AppTexts.exp3Task1:
+          "توسعه و پیاده سازی اپلیکیشن هایی متناسب با نیاز روز دنیا برای شرکت های داخلی و خارجی",
+      AppTexts.exp3Task2:
+          "تجزیه و تحلیل نیازمندیها و طراحی ساختار برنامه در فلاتر",
+      AppTexts.exp3Task3: "اصلاح و بهبود عملکرد و عیب یابی در فلاتر",
+      AppTexts.exp3Task4: "ادغام فناوریهای جدید و به روز در برنامه فلاتر",
+      AppTexts.exp3Task5: "همکاری با تیم توسعه برای بهبود نیاز های کلی",
+      AppTexts.exp4Title: "توسعه دهنده فلاتر",
+      AppTexts.exp4Name: "آرادبرندینگ",
+      AppTexts.exp4Location: "ایران ، قم",
+      AppTexts.exp4Year: "1399",
+      AppTexts.exp4Task1: "توسعه دهنده اپلیکیشن اختصاصی شرکت آراد",
+      AppTexts.exp5Title: "توسعه دهنده پایتون",
+      AppTexts.exp5Name: "مرکز آپای دانشگاه قم",
+      AppTexts.exp5Location: "ایران ، قم",
+      AppTexts.exp5Year: "1397 - 1398",
+      AppTexts.exp5Task1:
+          "توسعه دهنده اسکریپت های پایتون در موضوعات هک و امنیت",
       AppTexts.pj1Title: "اپ اختصاصی شرکت Bitely",
       AppTexts.pj1Owner: "شرکت بایتلی",
       AppTexts.pj1Year: "1402",
@@ -88,6 +122,44 @@ class AppTranslations extends Translations {
           "Implemente responsive UI designs for optimal user experience across various devices and screen sizes",
       AppTexts.exp1Task5:
           "Optimize application performance and ensured code quality through testing and debugging",
+      AppTexts.exp2Title: "Flutter Developer (Remote - Full Time)",
+      AppTexts.exp2Name: "Barg",
+      AppTexts.exp2Location: "Iran, Tehran",
+      AppTexts.exp2Year: "2022",
+      AppTexts.exp2Task1:
+          "Develop and implemented Flutter applications for various clients, ensuring high quality and performance",
+      AppTexts.exp2Task2:
+          "Collaborate with cross-functional teams to define project requirements, conduct code reviews, and ensure timely delivery",
+      AppTexts.exp2Task3:
+          "Design and built user-friendly interfaces and optimized the app's performance for a seamless user experience",
+      AppTexts.exp2Task4:
+          "Design and built user-friendly interfaces and optimized the app's performance for a seamless user experience",
+      AppTexts.exp2Task5:
+          "Resolve complex technical issues and bugs to ensure smooth functionality of the application",
+      AppTexts.exp3Title: "Flutter Developer(Remote - Part Time)",
+      AppTexts.exp3Name: "Willa Arts (Meshkee)",
+      AppTexts.exp3Location: "Iran, Qom",
+      AppTexts.exp3Year: "2020 - 2023",
+      AppTexts.exp3Task1:
+          "Develope cross-platform mobile applications using Flutter framework",
+      AppTexts.exp3Task2:
+          "Collaborate with UI/UX designers to implement intuitive and visually appealing user interfaces",
+      AppTexts.exp3Task3:
+          "Integrate RESTful APIs to retrieve and update data in realtime",
+      AppTexts.exp3Task4:
+          "Optimize app performance by identifying and resolving bottlenecks and memory leaks",
+      AppTexts.exp3Task5:
+          "Implemente push notifications and in-app messaging features to enhance user engagement",
+      AppTexts.exp4Title: "Flutter Developer (Full Time)",
+      AppTexts.exp4Name: "Arad Branding",
+      AppTexts.exp4Location: "Iran, Qom",
+      AppTexts.exp4Year: "2020",
+      AppTexts.exp4Task1: "Develop cross platform application of arad co",
+      AppTexts.exp5Title: "Python Developer",
+      AppTexts.exp5Name: "Apa Organization",
+      AppTexts.exp5Location: "Iran , Qom , University of Qom",
+      AppTexts.exp5Year: "2018 - 2019",
+      AppTexts.exp5Task1: "Develop Python Scripts in hack and security topic",
       AppTexts.pj1Title: "Bitely Application",
       AppTexts.pj1Owner: "Bitely Company",
       AppTexts.pj1Year: "2023",

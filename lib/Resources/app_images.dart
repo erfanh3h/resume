@@ -3,6 +3,7 @@ class AppImages {
   static const profile = "$base/profile.jpeg";
   static const qomUni = "$base/qom-uni.png";
   static const barg = "$base/barg.png";
+  static const meshkee = "$base/meshkee.png";
   static const arad = "$base/arad.png";
   static const bitely = "$base/bitely.png";
   static const pj1_1 = "$base/pj1_1.png";

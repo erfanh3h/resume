@@ -41,6 +41,41 @@ abstract class AppTexts {
   static const exp1Task3 = "exp1Task3";
   static const exp1Task4 = "exp1Task4";
   static const exp1Task5 = "exp1Task5";
+  //experience 2
+  static const exp2Title = "exp2Title";
+  static const exp2Name = "exp2Name";
+  static const exp2Location = "exp2Location";
+  static const exp2Year = "exp2Year";
+  static const exp2Link = "https://www.bargco.com/";
+  static const exp2Task1 = "exp2Task1";
+  static const exp2Task2 = "exp2Task2";
+  static const exp2Task3 = "exp2Task3";
+  static const exp2Task4 = "exp2Task4";
+  static const exp2Task5 = "exp2Task5";
+  //experience 3
+  static const exp3Title = "exp3Title";
+  static const exp3Name = "exp3Name";
+  static const exp3Location = "exp3Location";
+  static const exp3Year = "exp3Year";
+  static const exp3Link = "https://www.meshkee.com/";
+  static const exp3Task1 = "exp3Task1";
+  static const exp3Task2 = "exp3Task2";
+  static const exp3Task3 = "exp3Task3";
+  static const exp3Task4 = "exp3Task4";
+  static const exp3Task5 = "exp3Task5";
+  //experience 4
+  static const exp4Title = "exp4Title";
+  static const exp4Name = "exp4Name";
+  static const exp4Location = "exp4Location";
+  static const exp4Year = "exp4Year";
+  static const exp4Link = "https://aradbranding.com/fa/";
+  static const exp4Task1 = "exp4Task1";
+  //experience 5
+  static const exp5Title = "exp5Title";
+  static const exp5Name = "exp5Name";
+  static const exp5Location = "exp5Location";
+  static const exp5Year = "exp5Year";
+  static const exp5Task1 = "exp5Task1";
 
   //skills
   static const skill1 = "Dart - Flutter";
@@ -50,6 +85,25 @@ abstract class AppTexts {
   static const skill5 = "Unit Testing";
   static const skill6 = "Graphql - RestAPI";
   static const skill7 = "Scrum - Jira - Trello";
+  static const skill8 = "GitHub - Bitbucket";
+  static const skill9 = "GetX - Provider";
+  static const skill10 = "Multi Threading";
+  static const skill11 = "FastApi";
+  static const skill12 = "MongoDB - PostgreSQL";
+  static const skill13 = "postman";
+  static const skill14 = "Docker";
+  static const skill15 = "Figma - Adobe XD";
+  static const skill16 = "Stream - Push Notification";
+  static const skill17 = "Firebase - Onesignal - Pusher";
+  static const skill18 = "CI/CD";
+  static const skill19 = "WebSocket";
+  static const skill20 = "AWS Amplify";
+  static const skill21 = "Google ads - Huawei ads";
+  static const skill22 = "Google play - App store";
+  static const skill23 = "Web Scraping";
+  static const skill24 = "Google And Apple Payments";
+  static const skill25 = "AWS Lambda Functions";
+  static const skill26 = "Responsive Prenciples";
 
   //project 1
   static const pj1Title = "pj1Title";
