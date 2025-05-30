@@ -78,9 +78,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: IranSans
+    - family: Vazir
       fonts:
-        - asset: assets/Fonts/IranSans.ttf
+        - asset: assets/Fonts/Vazir.ttf
     - family: PlayPen
       fonts:
         - asset: assets/Fonts/PlayPen.ttf

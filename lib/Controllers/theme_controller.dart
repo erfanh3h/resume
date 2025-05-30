@@ -10,7 +10,7 @@ class ThemeController extends GetxController {
     bool isEnglishLocale = Get.find<LocaleController>().isEnglishLocale();
     String fontFamily = isEnglishLocale
         ? FontFamilies.playPen
-        : FontFamilies.iranSans;
+        : FontFamilies.vazir;
     Get.changeTheme(
       isDarkMode.value
           ? AppTheme.lightTheme(fontFamily)
@@ -23,7 +23,7 @@ class ThemeController extends GetxController {
     bool isEnglishLocale = Get.find<LocaleController>().isEnglishLocale();
     String fontFamily = isEnglishLocale
         ? FontFamilies.playPen
-        : FontFamilies.iranSans;
+        : FontFamilies.vazir;
     Get.changeTheme(
       isDarkMode.value
           ? AppTheme.darkTheme(fontFamily)

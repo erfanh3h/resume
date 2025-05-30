@@ -1,4 +1,4 @@
 class FontFamilies {
-  static const iranSans = "iranSans";
+  static const vazir = "Vazir";
   static const playPen = "PlayPen";
 }

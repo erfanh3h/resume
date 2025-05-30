@@ -36,7 +36,7 @@ class AppColors {
   static const disabledButton = Color(0xffb9e0de); //for strong pass
   static const transparent = Colors.transparent; //for strong pass
 
-  static const lightColor = Color.fromARGB(255, 233, 228, 228);
+  static const lightColor = Color.fromARGB(255, 231, 227, 227);
   static const darkColor = Color.fromARGB(255, 48, 5, 5);
 
   static const imageRedColor = Color.fromARGB(255, 138, 49, 49);
