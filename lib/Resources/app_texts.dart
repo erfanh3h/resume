@@ -36,4 +36,13 @@ abstract class AppTexts {
   static const exp1Task3 = "exp1Task3";
   static const exp1Task4 = "exp1Task4";
   static const exp1Task5 = "exp1Task5";
+
+  //skills
+  static const skill1 = "Dart - Flutter";
+  static const skill2 = "Python";
+  static const skill3 = "Clean Architecture";
+  static const skill4 = "MVVM - MVC";
+  static const skill5 = "Unit Testing";
+  static const skill6 = "Graphql - RestAPI";
+  static const skill7 = "Scrum - Jira - Trello";
 }
