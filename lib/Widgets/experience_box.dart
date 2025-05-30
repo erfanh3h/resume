@@ -3,6 +3,7 @@ import 'package:refreshed/refreshed.dart';
 import 'package:resume/Models/experience_model.dart';
 import 'package:resume/Resources/app_spacings.dart';
 import 'package:resume/Resources/app_texts.dart';
+import 'package:resume/Utils/link.dart';
 import 'package:resume/Widgets/text_icon_widget.dart';
 
 class ExperienceBox extends StatelessWidget {
@@ -97,7 +98,23 @@ class ExperienceBox extends StatelessWidget {
               separatorBuilder: (ctx, index) => SizedBox(height: 10),
               itemCount: data.tasks?.length ?? 0,
             ),
-            SizedBox(height: 10),
+            if (data.link != null)
+              Padding(
+                padding: AppSpacings.s20All,
+                child: InkWell(
+                  onTap: () {
+                    LinkUtils.openLink(data.link!);
+                  },
+                  child: TextIconWidget(
+                    text: data.link!,
+                    icon: Icons.link,
+                    textDirection: TextDirection.ltr,
+                    textStyle: context.theme.textTheme.titleLarge!.copyWith(
+                      fontSize: 13,
+                    ),
+                  ),
+                ),
+              ),
           ],
         ),
       ),

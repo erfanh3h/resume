@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:resume/Models/project_model.dart';
 import 'package:resume/Resources/app_spacings.dart';
+import 'package:resume/Utils/link.dart';
 import 'package:resume/Widgets/text_icon_widget.dart';
 
 class ProjectBox extends StatelessWidget {
@@ -65,12 +66,17 @@ class ProjectBox extends StatelessWidget {
               style: context.theme.textTheme.bodySmall,
             ),
             if (data.link != null)
-              TextIconWidget(
-                text: data.link!.tr,
-                icon: Icons.link,
-                textDirection: TextDirection.ltr,
-                textStyle: context.theme.textTheme.titleLarge!.copyWith(
-                  fontSize: 13,
+              InkWell(
+                onTap: () {
+                  LinkUtils.openLink(data.link!);
+                },
+                child: TextIconWidget(
+                  text: data.link!,
+                  icon: Icons.link,
+                  textDirection: TextDirection.ltr,
+                  textStyle: context.theme.textTheme.titleLarge!.copyWith(
+                    fontSize: 13,
+                  ),
                 ),
               ),
             SizedBox(height: 15),

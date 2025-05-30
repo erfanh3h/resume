@@ -3,7 +3,11 @@ abstract class AppTexts {
   static const lang = "lang";
   static const name = "name";
   static const jobTitle = "jobTitle";
-  static const email = "email";
+  static const email = "ehayatakhsh97@gmail.com";
+  static const linkedin = "https://www.linkedin.com/in/erfanhayatbakhsh";
+  static const linkedinId = "erfanhayatbakhsh";
+  static const github = "https://github.com/erfanh3h";
+  static const githubId = "erfanh3h";
   static const dOB = "dOB";
   static const mobile = "mobile";
   static const marital = "marital";
@@ -31,6 +35,7 @@ abstract class AppTexts {
   static const exp1Name = "exp1Name";
   static const exp1Location = "exp1Location";
   static const exp1Year = "exp1Year";
+  static const exp1Link = "https://bitely.co/";
   static const exp1Task1 = "exp1Task1";
   static const exp1Task2 = "exp1Task2";
   static const exp1Task3 = "exp1Task3";

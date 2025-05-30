@@ -9,6 +9,7 @@ final List<ExperienceModel> experiences = [
     location: AppTexts.exp1Location,
     year: AppTexts.exp1Year,
     image: AppImages.bitely,
+    link: AppTexts.exp1Link,
     tasks: [
       AppTexts.exp1Task1,
       AppTexts.exp1Task2,
