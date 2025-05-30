@@ -6,6 +6,11 @@ class AppImages {
   static const meshkee = "$base/meshkee.png";
   static const arad = "$base/arad.png";
   static const bitely = "$base/bitely.png";
+  static const cafeFekr = "$base/cafe-fekr.png";
+  static const nojoum = "$base/nojoum.png";
+  static const mentor = "$base/mentor.png";
+  static const balout = "$base/balout.jpg";
+  static const cssd = "$base/cssd.png";
   static const pj1_1 = "$base/pj1_1.png";
   static const pj1_2 = "$base/pj1_2.png";
   static const pj1_3 = "$base/pj1_3.png";

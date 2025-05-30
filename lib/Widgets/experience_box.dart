@@ -25,7 +25,7 @@ class ExperienceBox extends StatelessWidget {
                 SizedBox(width: 10),
                 if (data.image != null)
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(150),
+                    borderRadius: BorderRadius.circular(5),
                     child: Image.asset(
                       data.image!,
                       width: 75,

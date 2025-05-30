@@ -116,4 +116,60 @@ abstract class AppTexts {
   static const pj1Description = "pj1Description";
   static const pj1Link =
       "https://play.google.com/store/apps/details?id=com.bitely.ai&hl=en_US";
+  //project2
+  static const pj2Title = "pj2Title";
+  static const pj2Owner = "pj2Owner";
+  static const pj2Year = "pj2Year";
+  static const pj2Description = "pj2Description";
+  static const pj2Link = "https://myket.ir/app/kafeh.fekr.classic";
+  //project3
+  static const pj3Title = "pj3Title";
+  static const pj3Owner = "pj3Owner";
+  static const pj3Year = "pj3Year";
+  static const pj3Description = "pj3Description";
+  static const pj3Link =
+      "https://play.google.com/store/apps/details?id=willa.arts.nojoumtv&hl=en";
+  //project4
+  static const pj4Title = "pj4Title";
+  static const pj4Owner = "pj4Owner";
+  static const pj4Year = "pj4Year";
+  static const pj4Description = "pj4Description";
+  static const pj4Link =
+      "https://play.google.com/store/apps/details?id=willa.arts.FBAMap";
+  //project5
+  static const pj5Title = "pj5Title";
+  static const pj5Owner = "pj5Owner";
+  static const pj5Year = "pj5Year";
+  static const pj5Description = "pj5Description";
+  //project6
+  static const pj6Title = "pj6Title";
+  static const pj6Owner = "pj6Owner";
+  static const pj6Year = "pj6Year";
+  static const pj6Description = "pj6Description";
+  static const pj6Link = "https://cafebazaar.ir/app/willa.arts.baloutpastry";
+  //project7
+  static const pj7Title = "pj7Title";
+  static const pj7Owner = "pj7Owner";
+  static const pj7Year = "pj7Year";
+  static const pj7Description = "pj7Description";
+  //project8
+  static const pj8Title = "pj8Title";
+  static const pj8Owner = "pj8Owner";
+  static const pj8Year = "pj8Year";
+  static const pj8Description = "pj8Description";
+  //project9
+  static const pj9Title = "pj9Title";
+  static const pj9Owner = "pj9Owner";
+  static const pj9Year = "pj9Year";
+  static const pj9Description = "pj9Description";
+  //project10
+  static const pj10Title = "pj10Title";
+  static const pj10Owner = "pj10Owner";
+  static const pj10Year = "pj10Year";
+  static const pj10Description = "pj10Description";
+  //project11
+  static const pj11Title = "pj11Title";
+  static const pj11Owner = "pj11Owner";
+  static const pj11Year = "pj11Year";
+  static const pj11Description = "pj11Description";
 }

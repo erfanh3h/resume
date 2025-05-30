@@ -25,7 +25,7 @@ class ProjectBox extends StatelessWidget {
                 SizedBox(width: 10),
                 if (data.image != null)
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(150),
+                    borderRadius: BorderRadius.circular(5),
                     child: Image.asset(
                       data.image!,
                       width: 75,
@@ -65,6 +65,7 @@ class ProjectBox extends StatelessWidget {
               data.description?.tr ?? "",
               style: context.theme.textTheme.bodySmall,
             ),
+            SizedBox(height: 5),
             if (data.link != null)
               InkWell(
                 onTap: () {
@@ -80,7 +81,7 @@ class ProjectBox extends StatelessWidget {
                 ),
               ),
             SizedBox(height: 15),
-            if (data.image?.isNotEmpty ?? false)
+            if (data.images?.isNotEmpty ?? false)
               SizedBox(
                 height: 160,
                 child: ListView.separated(

@@ -21,7 +21,7 @@ class SkillsListWidget extends StatelessWidget {
         return Card(
           child: Column(
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: 10),
               Center(
                 child: HeaderWidget(
                   text: AppTexts.skills.tr,
@@ -29,10 +29,18 @@ class SkillsListWidget extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child: Container(
-                  padding: AppSpacings.s20All,
-                  width: cons.maxWidth,
-                  child: Wrap(spacing: 10, runSpacing: 5, children: wrapChilds),
+                child: ListView(
+                  children: [
+                    Container(
+                      padding: AppSpacings.s20All,
+                      width: cons.maxWidth,
+                      child: Wrap(
+                        spacing: 10,
+                        runSpacing: 5,
+                        children: wrapChilds,
+                      ),
+                    ),
+                  ],
                 ),
               ),
               Center(
@@ -49,7 +57,7 @@ class SkillsListWidget extends StatelessWidget {
                   LanguegeBox(name: AppTexts.lang2.tr),
                 ],
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 10),
             ],
           ),
         );
