@@ -35,6 +35,7 @@ class ExperienceBox extends StatelessWidget {
                   ),
                 SizedBox(width: 10),
                 Expanded(
+                  flex: 5,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     mainAxisSize: MainAxisSize.max,
@@ -53,10 +54,14 @@ class ExperienceBox extends StatelessWidget {
                     ],
                   ),
                 ),
-                TextIconWidget(
-                  text: (data.year ?? "").tr,
-                  icon: Icons.date_range,
-                  textDirection: TextDirection.ltr,
+                Expanded(
+                  flex: 3,
+                  child: TextIconWidget(
+                    text: (data.year ?? "").tr,
+                    icon: Icons.date_range,
+                    textDirection: TextDirection.ltr,
+                    maxLines: 4,
+                  ),
                 ),
                 SizedBox(width: 10),
               ],

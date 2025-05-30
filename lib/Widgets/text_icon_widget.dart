@@ -8,12 +8,14 @@ class TextIconWidget extends StatelessWidget {
     required this.icon,
     this.textStyle,
     this.textDirection,
+    this.maxLines = 2,
   });
 
   final String text;
   final IconData icon;
   final TextStyle? textStyle;
   final TextDirection? textDirection;
+  final int maxLines;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -27,7 +29,8 @@ class TextIconWidget extends StatelessWidget {
             text,
             style: textStyle ?? context.theme.textTheme.bodyMedium,
             textDirection: textDirection,
-            maxLines: 2,
+            maxLines: maxLines,
+            overflow: TextOverflow.ellipsis,
           ),
         ),
       ],

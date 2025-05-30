@@ -16,8 +16,7 @@ class MainPageHeader extends StatelessWidget {
     final themeController = Get.find<ThemeController>();
     final tabController = Get.find<MainTabController>();
     return Obx(
-      () => Row(
-        mainAxisSize: MainAxisSize.min,
+      () => Wrap(
         children: [
           IconButton(
             onPressed: () => localeController.changeLocale(),

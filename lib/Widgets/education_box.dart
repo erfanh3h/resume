@@ -14,11 +14,11 @@ class EducationBox extends StatelessWidget {
       elevation: 3,
       child: Container(
         padding: AppSpacings.s10All,
-        height: 100,
+        // height: 100,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(width: 10),
+            SizedBox(width: 5),
             if (data.image != null)
               ClipRRect(
                 borderRadius: BorderRadius.circular(150),
@@ -31,6 +31,7 @@ class EducationBox extends StatelessWidget {
               ),
             SizedBox(width: 10),
             Expanded(
+              flex: 5,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 mainAxisSize: MainAxisSize.max,
@@ -50,12 +51,16 @@ class EducationBox extends StatelessWidget {
                 ],
               ),
             ),
-            TextIconWidget(
-              text: (data.year ?? "").tr,
-              icon: Icons.date_range,
-              textDirection: TextDirection.ltr,
+            Expanded(
+              flex: 3,
+              child: TextIconWidget(
+                text: (data.year ?? "").tr,
+                icon: Icons.date_range,
+                textDirection: TextDirection.ltr,
+                maxLines: 3,
+              ),
             ),
-            SizedBox(width: 10),
+            SizedBox(width: 5),
           ],
         ),
       ),

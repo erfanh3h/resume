@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -18,7 +20,7 @@ class SixTopHeaderWidget extends StatelessWidget {
       child: Container(
         alignment: Alignment.center,
         padding: AppSpacings.s25Vertical10Horizental,
-        width: maxWidth * 5 / 6,
+        width: max(maxWidth * 5 / 6, 400),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
@@ -41,6 +43,7 @@ class SixTopHeaderWidget extends StatelessWidget {
                     child: TextIconWidget(
                       text: AppTexts.email,
                       icon: CupertinoIcons.envelope_fill,
+                      maxLines: 1,
                     ),
                   ),
                   InkWell(
@@ -50,6 +53,7 @@ class SixTopHeaderWidget extends StatelessWidget {
                     child: TextIconWidget(
                       text: AppTexts.linkedinId,
                       icon: FontAwesomeIcons.linkedin,
+                      maxLines: 1,
                     ),
                   ),
                   TextIconWidget(
@@ -59,6 +63,7 @@ class SixTopHeaderWidget extends StatelessWidget {
                   TextIconWidget(
                     text: AppTexts.military.tr,
                     icon: Icons.military_tech,
+                    maxLines: 1,
                   ),
                 ],
               ),
@@ -81,6 +86,7 @@ class SixTopHeaderWidget extends StatelessWidget {
                       text: AppTexts.mobile.tr,
                       icon: Icons.phone,
                       textDirection: TextDirection.ltr,
+                      maxLines: 1,
                     ),
                   ),
                   InkWell(
