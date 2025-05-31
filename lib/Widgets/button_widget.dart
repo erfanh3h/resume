@@ -29,12 +29,10 @@ class ButtonWidget extends StatelessWidget {
             spacing: 5,
             children: [
               Icon(icon),
-              Flexible(
-                child: Text(
-                  text,
-                  style: context.theme.textTheme.headlineSmall,
-                  maxLines: 1,
-                ),
+              Text(
+                text,
+                style: context.theme.textTheme.headlineSmall,
+                maxLines: 1,
               ),
             ],
           ),

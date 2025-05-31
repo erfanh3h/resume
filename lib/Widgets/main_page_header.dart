@@ -18,19 +18,6 @@ class MainPageHeader extends StatelessWidget {
     return Obx(
       () => Wrap(
         children: [
-          IconButton(
-            onPressed: () => localeController.changeLocale(),
-            icon: Text(AppTexts.lang.tr),
-          ),
-          IconButton(
-            onPressed: () => themeController.changeTheme(),
-            icon: Icon(
-              themeController.isDarkMode.value
-                  ? Icons.mode_night_outlined
-                  : Icons.sunny,
-            ),
-          ),
-          Spacer(),
           ButtonWidget(
             text: AppTexts.projects.tr,
             icon: Icons.monitor,
@@ -54,6 +41,18 @@ class MainPageHeader extends StatelessWidget {
             icon: Icons.person,
             onTap: () => tabController.changeIndex(0),
             isActive: tabController.activeIndex.value == 0,
+          ),
+          IconButton(
+            onPressed: () => localeController.changeLocale(),
+            icon: Text(AppTexts.lang.tr),
+          ),
+          IconButton(
+            onPressed: () => themeController.changeTheme(),
+            icon: Icon(
+              themeController.isDarkMode.value
+                  ? Icons.mode_night_outlined
+                  : Icons.sunny,
+            ),
           ),
         ],
       ),
