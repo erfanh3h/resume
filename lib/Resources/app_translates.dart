@@ -77,6 +77,15 @@ class AppTranslations extends Translations {
       AppTexts.exp5Year: "1397 - 1398",
       AppTexts.exp5Task1:
           "توسعه دهنده اسکریپت های پایتون در موضوعات هک و امنیت",
+      AppTexts.exp6Title: "توسعه دهنده فول استک",
+      AppTexts.exp6Name: "یکی از سازمان های کشور",
+      AppTexts.exp6Location: "ایران ، قم",
+      AppTexts.exp6Year: "1403",
+      AppTexts.exp6Task1:
+          "توسعه و نگه داری اپلیکیشن ویندوزی و موبایلی گزینش این سازمان",
+      AppTexts.exp6Task2:
+          "پیاده‌سازی APIهای RESTful و یکپارچه‌سازی سرویس‌های شخص ثالث که منجر به گردش‌کار روان و بهینه در اپلیکیشن شد",
+      AppTexts.exp6Task3: "طراحی و پیاده سازی رابط کاربری",
       AppTexts.pj1Title: "اپ اختصاصی شرکت Bitely",
       AppTexts.pj1Owner: "شرکت بایتلی",
       AppTexts.pj1Year: "1402",
@@ -204,13 +213,13 @@ class AppTranslations extends Translations {
       AppTexts.exp1Location: "Turkey , Istanbul",
       AppTexts.exp1Year: "2023",
       AppTexts.exp1Task1:
-          "Develope and maintaine Bitely applications with newest methods",
+          "Develop and maintain Bitely applications with newest methods",
       AppTexts.exp1Task2:
           "Collaborate with cross-functional teams to gather requirements and design application architectures",
       AppTexts.exp1Task3:
           "Create reusable Flutter widgets and components to increase development efficiency",
       AppTexts.exp1Task4:
-          "Implemente responsive UI designs for optimal user experience across various devices and screen sizes",
+          "Implement responsive UI designs for optimal user experience across various devices and screen sizes",
       AppTexts.exp1Task5:
           "Optimize application performance and ensured code quality through testing and debugging",
       AppTexts.exp2Title: "Flutter Developer (Remote - Full Time)",
@@ -232,7 +241,7 @@ class AppTranslations extends Translations {
       AppTexts.exp3Location: "Iran, Qom",
       AppTexts.exp3Year: "2020 - 2023",
       AppTexts.exp3Task1:
-          "Develope cross-platform mobile applications using Flutter framework",
+          "Develop cross-platform mobile applications using Flutter framework",
       AppTexts.exp3Task2:
           "Collaborate with UI/UX designers to implement intuitive and visually appealing user interfaces",
       AppTexts.exp3Task3:
@@ -240,7 +249,7 @@ class AppTranslations extends Translations {
       AppTexts.exp3Task4:
           "Optimize app performance by identifying and resolving bottlenecks and memory leaks",
       AppTexts.exp3Task5:
-          "Implemente push notifications and in-app messaging features to enhance user engagement",
+          "Implement push notifications and in-app messaging features to enhance user engagement",
       AppTexts.exp4Title: "Flutter Developer (Full Time)",
       AppTexts.exp4Name: "Arad Branding",
       AppTexts.exp4Location: "Iran, Qom",
@@ -251,6 +260,15 @@ class AppTranslations extends Translations {
       AppTexts.exp5Location: "Iran , Qom , University of Qom",
       AppTexts.exp5Year: "2018 - 2019",
       AppTexts.exp5Task1: "Develop Python Scripts in hack and security topic",
+      AppTexts.exp6Title: "FullStack Developer(Hybrid)",
+      AppTexts.exp6Name: "One of the national organizations",
+      AppTexts.exp6Location: "Qom , Iran",
+      AppTexts.exp6Year: "2024",
+      AppTexts.exp6Task1:
+          "Develop and maintain windows and mobile application using flutter and python.",
+      AppTexts.exp6Task2:
+          "Implement RESTful APIs and integrated third-party services, resulting in a streamlined application workflow.",
+      AppTexts.exp6Task3: "Design and implement ui-ux.",
       AppTexts.pj1Title: "Bitely Application",
       AppTexts.pj1Owner: "Bitely Company",
       AppTexts.pj1Year: "2023",
@@ -340,8 +358,7 @@ Features of this application include: full data entry and storage with the abili
       AppTexts.pj11Owner: "APA of Qom University",
       AppTexts.pj11Year: "2018",
       AppTexts.pj11Description:
-          """This software was developed upon request from the APA Center of Qom University to collect information from Instagram, and it uses data extraction libraries in Python.
-""",
+          "This software was developed upon request from the APA Center of Qom University to download apps from caffe bazaar for testing do they have viruses or not , using Python.",
     },
   };
 }

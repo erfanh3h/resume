@@ -4,6 +4,13 @@ import 'package:resume/Resources/app_texts.dart';
 
 final List<ExperienceModel> experiences = [
   ExperienceModel(
+    title: AppTexts.exp6Title,
+    name: AppTexts.exp6Name,
+    location: AppTexts.exp6Location,
+    year: AppTexts.exp6Year,
+    tasks: [AppTexts.exp6Task1, AppTexts.exp6Task2, AppTexts.exp6Task3],
+  ),
+  ExperienceModel(
     title: AppTexts.exp1Title,
     name: AppTexts.exp1Name,
     location: AppTexts.exp1Location,

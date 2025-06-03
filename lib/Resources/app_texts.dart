@@ -76,6 +76,14 @@ abstract class AppTexts {
   static const exp5Location = "exp5Location";
   static const exp5Year = "exp5Year";
   static const exp5Task1 = "exp5Task1";
+  //experience 6
+  static const exp6Title = "exp6Title";
+  static const exp6Name = "exp6Name";
+  static const exp6Location = "exp6Location";
+  static const exp6Year = "exp6Year";
+  static const exp6Task1 = "exp6Task1";
+  static const exp6Task2 = "exp6Task2";
+  static const exp6Task3 = "exp6Task3";
 
   //skills
   static const skill1 = "Dart - Flutter";
